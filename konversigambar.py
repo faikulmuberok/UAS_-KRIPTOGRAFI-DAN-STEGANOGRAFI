@@ -82,7 +82,7 @@ if __name__ == "__main__":
 
         if opsi == '1':
             try:
-                input_image_path = input("Enter the image path (e.g., input.png): ")
+                input_image_path = input("Enter the image path (masukan file dengan format .png): ")
                 validate_file_path(input_image_path)
 
                 secret_message = input("Enter the secret message: ")
@@ -109,7 +109,7 @@ if __name__ == "__main__":
 
         elif opsi == '2':
             try:
-                input_image_path = input("Enter the image path (e.g., input.png): ")
+                input_image_path = input("Enter the image path (masukan file dengan format file .png): ")
                 validate_file_path(input_image_path)
 
                 secret_message = decode_image(input_image_path)
